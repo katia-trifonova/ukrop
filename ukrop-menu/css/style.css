@@ -101,6 +101,20 @@ body {
 
 .wrap {
   background-color: #e5e5e5;
+  background-color: #efefef;
+  background-image:
+  -webkit-gradient(radial, 7 7, 0, 7 7, 7,
+      color-stop(0.4,  rgba(255,255,255,0.5)),
+      color-stop(0.44, rgba(255,255,255,0))
+    ),
+  -webkit-gradient(radial, 7 7, 0, 7 7, 7,
+      color-stop(0.4,  rgba(255,255,255,0.5)),
+      color-stop(0.44, rgba(255,255,255,0))
+    );
+  /*ff 3.6*/-moz-background-size: 20px 20px;
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+
 }
 
 .legend {
@@ -152,9 +166,6 @@ body {
   }
 }
 
-.dish:hover {
-  background-color: #efefef;
-}
 
 .dish-category {
   text-align: center;
