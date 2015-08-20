@@ -3,9 +3,7 @@ body {
   font-weight: 300;
 }
 
-a:hover {
-  text-decoration: none;
-}
+
 
 /* .container-fluid */
 
@@ -104,58 +102,100 @@ a:hover {
 /* .blog */
 
 .blog {
-  background-color: #efefef;
+  background-color: #fff;
 }
 
-@media (min-width: 768px) {
-  .blog {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-}
 
 .post {
   max-width: 768px;
   margin: 0 auto;
-background-color: #fff;
+  background-color: #efefef;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #e5e5e5;
 }
 
 .blog-title {
-  text-align: center;
-  font-size: 24px;
-  color: #663118;
-  padding-right: 60px;
-  padding-left: 60px;
-}
-
-.blog-date {
-  
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 20px;
+  background-color: #fff5cc;
 }
 
 @media (min-width: 768px) {
   .blog-title {
-    text-align: left;
-    font-size: 24px;
+    padding-top: 40px;
   }
+}
+
+.blog-title-link h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #663118;
+}
+
+@media (min-width: 768px) {
+  .blog-title-link h1 {
+    text-align: left;
+  }
+}
+
+.blog-title-link:hover {
+  text-decoration: none;
+  color: #663118;
+}
+
+.blog-date {
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-bottom: 20px;
+  font-size: 16px;
+  background-color: #fff5cc;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .blog-date {
+    text-align: left;
+  }
+}
+
+
+.blog-img-wrap {
+  padding: 0;
 }
 
 .blog-img {
   width: 100%;
 }
 
-.blog-txt p {
-  text-indent: 3em;
- }
 
 
 .blog-txt {
-  font-size: 18px;
-  padding-right: 60px;
-  padding-left: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 6%;
+  padding-left: 6%;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
+.comments {
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 6%;
+  padding-left: 6%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .comments {
+    text-align: left;
+  }
+}
+
+.comments a {
+  color: #663118;
+  color: green;
+}
 
 
 
