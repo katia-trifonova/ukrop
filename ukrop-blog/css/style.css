@@ -3,6 +3,15 @@ body {
   font-weight: 300;
 }
 
+a {
+  color: green;
+}
+
+a:hover,
+a:active {
+  color: green;
+}
+
 
 
 /* .container-fluid */
@@ -102,29 +111,49 @@ body {
 /* .blog */
 
 .blog {
+  border-top: 1px solid green;
   background-color: #fff;
+  background-color: #efefef;
+  background-image:
+  -webkit-gradient(radial, 7 7, 0, 7 7, 7,
+      color-stop(0.4,  rgba(255,255,255,0.5)),
+      color-stop(0.44, rgba(200,240,200,0))
+    ),
+  -webkit-gradient(radial, 7 7, 0, 7 7, 7,
+      color-stop(0.4,  rgba(255,255,255,0.5)),
+      color-stop(0.44, rgba(255,255,255,0))
+    );
+  /*ff 3.6*/-moz-background-size: 20px 20px;
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
 }
 
+@media (min-width: 768px) {
+  .blog {
+    border: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .post {
   max-width: 768px;
   margin: 0 auto;
-  background-color: #efefef;
-  padding-bottom: 50px;
-  border-bottom: 3px solid #e5e5e5;
+  background-color: #fff;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #efefef;
+}
+
+@media (min-width: 768px) {
+  .post {
+    padding-bottom: 80px;
+  }
 }
 
 .blog-title {
   padding-right: 6%;
   padding-left: 6%;
   padding-top: 20px;
-  background-color: #fff5cc;
-}
-
-@media (min-width: 768px) {
-  .blog-title {
-    padding-top: 40px;
-  }
 }
 
 .blog-title-link h1 {
@@ -149,7 +178,6 @@ body {
   padding-left: 6%;
   padding-bottom: 20px;
   font-size: 16px;
-  background-color: #fff5cc;
   text-align: center;
 }
 @media (min-width: 768px) {
