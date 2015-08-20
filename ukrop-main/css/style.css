@@ -3,12 +3,17 @@ body {
   font-weight: 300;
 }
 
+
+
+
 /* .container-fluid */
+
 
 .container-fluid {
   padding: 0;
   color: #663118;
-  }
+}
+
 
 .main-title {
   display: block;
@@ -16,108 +21,119 @@ body {
 }
 
 
-/* .navbar */
+
 
 /* .navbar */
+
 
 .menu {
-  border: 0;
-  background-color: #fff;
   min-height: 0;
   margin-bottom: 0;
+  border: 0;
+  background-color: #fff;
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .menu {
     margin-bottom: 20px;
   }
 }
 
+
 .menu .links {
   margin-bottom: 0;
 }
 
+
 .menu .links .link {
-  color: green;
-  text-transform: uppercase;
   font-size: 32px;
-  padding-bottom: 15px;
-  text-align: center;
-  border-top: 1px solid green;
-  transition: color .5s ease;
   font-weight: 400;
+  padding-bottom: 15px;
+  transition: color .5s ease;
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+  border-top: 1px solid green;
 }
 
+
 .menu .links .link:hover,
-.menu .links .link:active
- {
+.menu .links .link:active {
   color: #663118;
   background-color: #fff9e0;
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .menu .links {
-    margin: 0 auto;
     display: table;
-    table-layout: fixed;
     float: none;
+    margin: 0 auto;
+    table-layout: fixed;
   }
 
   .menu .links .link {
+    font-size: 16px;
+    font-weight: 400;
     display: table-cell;
     float: left;
-    text-align: center;
-    padding-bottom: 0;
-    border-right: 1px green solid;
     padding-top: 0;
-    font-weight: 400;
-    font-size: 16px;
+    padding-bottom: 0;
+    text-align: center;
     border-top: none;
+    border-right: 1px green solid;
     background-color: #fff;
   }
 
-.menu .links li:last-child .link {
+  .menu .links li:last-child .link {
     border-right: none;
   }
 
   .menu .links .link:hover,
-  .menu .links .link:active
-   {
+  .menu .links .link:active {
     text-decoration: underline;
     background-color: #fff;
   }
 }
 
 
+
+
 /* .about */
 
+
 .about {
-  background-image: url("../img/bg-ukrop.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
   min-height: 300px;
   padding-top: 80px;
+  background-image: url('../img/bg-ukrop.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 
-@media (min-width: 481px) {
+
+@media  (min-width: 481px) {
   .about {
     min-height: 500px;
     padding-top: 150px;
   }
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .about {
     min-height: 700px;
     padding-top: 200px;
   }
 }
 
+
 .about-txt {
-  color: #fff;
   text-align: center;
+  color: #fff;
 }
+
 
 .line-01 {
   font-size: 30px;
@@ -125,17 +141,20 @@ body {
   line-height: 1;
 }
 
-@media (min-width: 481px) {
+
+@media  (min-width: 481px) {
   .line-01 {
     font-size: 40px;
   }
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .line-01 {
     font-size: 50px;
   }
 }
+
 
 .line-02 {
   font-family: 'cheddar_jackregular', cursive;
@@ -144,7 +163,8 @@ body {
   margin-bottom: -30px;
 }
 
-@media (min-width: 481px) {
+
+@media  (min-width: 481px) {
   .line-02 {
     font-size: 0;
     margin-top: 0;
@@ -152,70 +172,83 @@ body {
   }
 }
 
+
 .line-03 {
   font-family: 'cheddar_jackregular', cursive;
   font-size: 40px;
 }
 
-@media (min-width: 481px) {
+
+@media  (min-width: 481px) {
   .line-03 {
     font-size: 50px;
   }
 }
 
 
+
+
 /* .addresses */
+
 
 .addresses {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-@media (min-width: 992px) {
+
+@media  (min-width: 992px) {
   .addresses {
     padding: 0;
   }
 }
+
 
 .address {
   position: relative;
   padding: 50px 0 20px 0;
 }
 
-@media (min-width: 992px) {
+
+@media  (min-width: 992px) {
   .address {
     padding: 110px 0 60px 0;
   }
 }
 
+
 .address::before {
   position: absolute;
   top: 20px;
   left: 50%;
-  margin-left: -15px;
-  content: "";
   width: 30px;
   height: 30px;
-  background-image: url("../img/pin.svg");
+  margin-left: -15px;
+  content: '';
+  background-image: url('../img/pin.svg');
 }
 
-@media (min-width: 992px) {
-    .address::before {
-      top: 75px;
-    }
+
+@media  (min-width: 992px) {
+  .address::before {
+    top: 75px;
+  }
 }
+
 
 .address-txt,
 .phone {
-  text-align: center;
   font-size: 24px;
   margin-bottom: 0;
+  text-align: center;
 }
 
+
 .phone {
-  color: green;
   font-size: 18px;
+  color: green;
 }
+
 
 .col-social,
 .col-email {
@@ -223,50 +256,58 @@ body {
 }
 
 
+
+
 /* .map */
 
+
 .map {
-  height: 300px;
   width: 100%;
+  height: 300px;
 }
+
 
 .map-cover {
   padding: 0;
-
 }
 
-.map-noscroll {
+
+.js-map-noscroll {
   pointer-events: none;
 }
 
-@media (min-width: 481px) {
-  .map{
-  height: 400px;
+
+@media  (min-width: 481px) {
+  .map {
+    height: 400px;
   }
 }
 
-@media (min-width:768px) {
-  .map{
-  height: 450px;
+
+@media  (min-width: 768px) {
+  .map {
+    height: 450px;
   }
 }
+
+
 
 
 /* .footer */
+
 
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-@media (min-width: 992px) {
+
+@media  (min-width: 992px) {
   .footer {
     padding-top: 100px;
     padding-bottom: 80px;
   }
 }
-
-
 
 
 .email,
@@ -275,14 +316,17 @@ body {
   font-size: 18px;
 }
 
+
 .email {
-  color: green;
   transition: color .5s ease;
+  color: green;
 }
 
+
 .email:hover {
-  color: #663118;;
+  color: #663118;
 }
+
 
 .email-txt {
   margin-top: 10px;
@@ -290,47 +334,56 @@ body {
 
 
 .social {
+  display: inline-block;
   width: 25px;
   height: 25px;
+  margin: 10px;
+  transition: background-position .2s ease;
+  background-image: url('../img/social.svg');
   background-repeat: no-repeat;
   background-position: center;
-  display: inline-block;
-  margin: 10px;
-  background-image:url('../img/social.svg');
-  transition: background-position .2s ease;
 }
 
+
 .vk {
-  background-position:0 -175px;
+  background-position: 0 -175px;
 }
+
 
 .vk:hover,
 .vk:active {
-  background-position:0 -150px;
+  background-position: 0 -150px;
 }
 
+
 .fb {
-  background-position:0 -25px;
+  background-position: 0 -25px;
 }
+
 
 .fb:hover,
 .fb:active {
-  background-position:0 -0px;
+  background-position: 0 -0;
 }
 
+
 .inst {
-  background-position:0 -75px;
+  background-position: 0 -75px;
 }
+
 
 .inst:hover,
 .inst:active {
-  background-position:0 -50px;
+  background-position: 0 -50px;
 }
+
+
 .trip {
-  background-position:0 -125px;
+  background-position: 0 -125px;
 }
+
 
 .trip:hover,
 .trip:active {
-  background-position:0 -100px;
+  background-position: 0 -100px;
 }

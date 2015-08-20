@@ -3,9 +3,11 @@ body {
   font-weight: 300;
 }
 
+
 a {
   color: green;
 }
+
 
 a:hover,
 a:active {
@@ -14,12 +16,15 @@ a:active {
 
 
 
+
 /* .container-fluid */
+
 
 .container-fluid {
   padding: 0;
   color: #663118;
-  }
+}
+
 
 .main-title {
   display: block;
@@ -27,160 +32,175 @@ a:active {
 }
 
 
+
+
 /* .navbar */
 
+
 .menu {
-  border: 0;
-  background-color: #fff;
   min-height: 0;
   margin-bottom: 0;
+  border: 0;
+  background-color: #fff;
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .menu {
     margin-bottom: 20px;
   }
 }
 
+
 .menu .links {
   margin-bottom: 0;
 }
 
+
 .menu .links .link {
-  color: green;
-  text-transform: uppercase;
   font-size: 32px;
-  padding-bottom: 15px;
-  text-align: center;
-  border-top: 1px solid green;
-  transition: color .5s ease;
   font-weight: 400;
+  padding-bottom: 15px;
+  transition: color .5s ease;
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+  border-top: 1px solid green;
 }
 
+
 .menu .links .link:hover,
-.menu .links .link:active
- {
+.menu .links .link:active {
   color: #663118;
   background-color: #fff9e0;
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .menu .links {
-    margin: 0 auto;
     display: table;
-    table-layout: fixed;
     float: none;
+    margin: 0 auto;
+    table-layout: fixed;
   }
 
   .menu .links .link {
+    font-size: 16px;
+    font-weight: 400;
     display: table-cell;
     float: left;
-    text-align: center;
-    padding-bottom: 0;
-    border-right: 1px green solid;
     padding-top: 0;
-    font-weight: 400;
-    font-size: 16px;
+    padding-bottom: 0;
+    text-align: center;
     border-top: none;
+    border-right: 1px green solid;
     background-color: #fff;
   }
 
-.menu .links li:last-child .link {
+  .menu .links li:last-child .link {
     border-right: none;
   }
 
   .menu .links .link:hover,
-  .menu .links .link:active
-   {
+  .menu .links .link:active {
     text-decoration: underline;
     background-color: #fff;
   }
 }
 
+
 .menu .links .link.disabled {
   cursor: default;
-  color: #663118;
   transition: none;
+  color: #663118;
 }
+
 
 .menu .links .link.disabled:hover,
 .menu .links .link.disabled:active {
   text-decoration: none;
 }
 
+
+
+
 /* .blog */
+
 
 .blog {
   border-top: 1px solid green;
   background-color: #fff;
   background-color: #efefef;
-  background-image:
-  -webkit-gradient(radial, 7 7, 0, 7 7, 7,
-      color-stop(0.4,  rgba(255,255,255,0.5)),
-      color-stop(0.44, rgba(200,240,200,0))
-    ),
-  -webkit-gradient(radial, 7 7, 0, 7 7, 7,
-      color-stop(0.4,  rgba(255,255,255,0.5)),
-      color-stop(0.44, rgba(255,255,255,0))
-    );
-  /*ff 3.6*/-moz-background-size: 20px 20px;
-  background-size: 20px 20px;
+  background-image: -webkit-gradient(radial, 7 7, 0, 7 7, 7, color-stop(.4, rgba(255, 255, 255, .5)), color-stop(.44, rgba(200, 240, 200, 0)) ), -webkit-gradient(radial, 7 7, 0, 7 7, 7, color-stop(.4, rgba(255, 255, 255, .5)), color-stop(.44, rgba(255, 255, 255, 0)) );
   background-position: 0 0, 10px 10px;
+    /*ff 3.6*/
+  -moz-background-size: 20px 20px;
+  background-size: 20px 20px;
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .blog {
-    border: none;
     padding-top: 60px;
     padding-bottom: 60px;
+    border: none;
   }
 }
+
 
 .post {
   max-width: 768px;
   margin: 0 auto;
-  background-color: #fff;
   padding-bottom: 40px;
   border-bottom: 1px solid #efefef;
+  background-color: #fff;
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .post {
     padding-bottom: 80px;
   }
 }
 
+
 .blog-title {
+  padding-top: 20px;
   padding-right: 6%;
   padding-left: 6%;
-  padding-top: 20px;
 }
 
+
 .blog-title-link h1 {
-  text-align: center;
   font-size: 24px;
+  text-align: center;
   color: #663118;
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .blog-title-link h1 {
     text-align: left;
   }
 }
+
 
 .blog-title-link:hover {
   text-decoration: none;
   color: #663118;
 }
 
+
 .blog-date {
-  padding-right: 6%;
-  padding-left: 6%;
-  padding-bottom: 20px;
   font-size: 16px;
+  padding-right: 6%;
+  padding-bottom: 20px;
+  padding-left: 6%;
   text-align: center;
 }
-@media (min-width: 768px) {
+
+
+@media  (min-width: 768px) {
   .blog-date {
     text-align: left;
   }
@@ -191,20 +211,21 @@ a:active {
   padding: 0;
 }
 
+
 .blog-img {
   width: 100%;
 }
 
 
-
 .blog-txt {
   font-size: 16px;
   font-weight: 400;
-  padding-right: 6%;
-  padding-left: 6%;
   padding-top: 30px;
+  padding-right: 6%;
   padding-bottom: 20px;
+  padding-left: 6%;
 }
+
 
 .comments {
   font-size: 16px;
@@ -214,11 +235,13 @@ a:active {
   text-align: center;
 }
 
-@media (min-width: 768px) {
+
+@media  (min-width: 768px) {
   .comments {
     text-align: left;
   }
 }
+
 
 .comments a {
   color: #663118;
@@ -230,22 +253,26 @@ a:active {
 
 /* .footer */
 
+
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-@media (min-width: 992px) {
+
+@media  (min-width: 992px) {
   .footer {
     padding-top: 100px;
     padding-bottom: 80px;
   }
 }
 
+
 .col-social,
 .col-email {
   text-align: center;
 }
+
 
 .email,
 .email-txt,
@@ -253,14 +280,17 @@ a:active {
   font-size: 18px;
 }
 
+
 .email {
-  color: green;
   transition: color .5s ease;
+  color: green;
 }
 
+
 .email:hover {
-  color: #663118;;
+  color: #663118;
 }
+
 
 .email-txt {
   margin-top: 10px;
@@ -268,47 +298,56 @@ a:active {
 
 
 .social {
+  display: inline-block;
   width: 25px;
   height: 25px;
+  margin: 10px;
+  transition: background-position .2s ease;
+  background-image: url('../img/social.svg');
   background-repeat: no-repeat;
   background-position: center;
-  display: inline-block;
-  margin: 10px;
-  background-image:url('../img/social.svg');
-  transition: background-position .2s ease;
 }
 
+
 .vk {
-  background-position:0 -175px;
+  background-position: 0 -175px;
 }
+
 
 .vk:hover,
 .vk:active {
-  background-position:0 -150px;
+  background-position: 0 -150px;
 }
 
+
 .fb {
-  background-position:0 -25px;
+  background-position: 0 -25px;
 }
+
 
 .fb:hover,
 .fb:active {
-  background-position:0 -0px;
+  background-position: 0 -0;
 }
 
+
 .inst {
-  background-position:0 -75px;
+  background-position: 0 -75px;
 }
+
 
 .inst:hover,
 .inst:active {
-  background-position:0 -50px;
+  background-position: 0 -50px;
 }
+
+
 .trip {
-  background-position:0 -125px;
+  background-position: 0 -125px;
 }
+
 
 .trip:hover,
 .trip:active {
-  background-position:0 -100px;
+  background-position: 0 -100px;
 }
