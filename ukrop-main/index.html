@@ -13,6 +13,47 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 
+    <!--Google Maps code-->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script>
+
+    window.initialize = function(){
+
+       var myLatlng = new google.maps.LatLng(59.9362704, 30.3253693);
+       var pos1 = new google.maps.LatLng(59.940566, 30.281111);
+       var pos2 = new google.maps.LatLng(59.927868, 30.352666);
+       var pos3 = new google.maps.LatLng(59.9362704, 30.3253693);
+
+       var mapCanvas = document.querySelector('.map');
+       var mapOptions = {
+         zoom: 12,
+         center: myLatlng
+       }
+       var map = new google.maps.Map(mapCanvas, mapOptions);
+
+       var marker = new google.maps.Marker({
+           position: pos1,
+           map: map,
+           title: '7-я линия, 30'
+       });
+
+       var marker = new google.maps.Marker({
+           position: pos2,
+           map: map,
+           title: 'Марата, 23'
+       });
+
+       var marker = new google.maps.Marker({
+           position: pos3,
+           map: map,
+           title: 'Малая Конюшенная, 14'
+       });
+
+     }
+     google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -67,8 +108,8 @@
 
       <div class="row">
         <div class="col-xs-12 col-md-12 col-lg-12 map-cover js-map-cover">
-          <iframe class="map js-map js-map-noscroll" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15990.156193865048!2d30.317674395507815!3d59.93596648084828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LrQsNGE0LUg0YPQutGA0L7Qvw!5e0!3m2!1sru!2sru!4v1438620834534"  frameborder="0" style="border:0" allowfullscreen>
-          </iframe>
+          <div class="map js-map js-map-noscroll">
+          </div>
         </div>
       </div>
 
