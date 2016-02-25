@@ -132,6 +132,7 @@ body {
 .about-txt {
   text-align: center;
   color: #fff;
+  cursor: default;
 }
 
 
@@ -194,6 +195,7 @@ body {
 .addresses {
   padding-top: 20px;
   padding-bottom: 20px;
+  cursor: default;
 }
 
 
