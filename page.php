@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Укроп:блог</title>
+
+    <link href="<?php bloginfo("template_directory");?>/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php bloginfo("template_directory");?>/css/blog.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container-fluid">
+
+      <!-- - - - - - - - - - - LOGO - - - - - - - - - - -->
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-4 col-lg-offset-4">
+          <a href="index.html" class="title-wrap">
+            <img class="main-title" alt="Укроп" src="<?php bloginfo("template_directory");?>/img/ukrop-logo@1x.png" srcset="<?php bloginfo("template_directory");?>/img/ukrop-logo@2x.png 2x">
+          </a>
+        </div>
+      </div>
+
+      <!-- - - - - - - - - - - NAVIGATION - - - - - - - - - - -->
+      <div class="navbar navbar-default nav-justified menu">
+        <ul class="nav navbar-nav links">
+          <li><a class="link" href="menu.html">Меню</a></li>
+          <li><a class="link  disabled" href="blog.html">Блог</a></li>
+          <li><a class="link" href="friends.html">Друзья</a></li>
+        </ul>
+      </div>
+
+      <!-- - - - - - - - - - - BLOG - - - - - - - - - - -->
+      <div class="container-fluid blog">
+
+      <!-- - - - - - - - - - - POST - - - - - - - - - - -->
+        <div class="row post">
+          <div class="col-xs-12 blog-title">
+            <a class="blog-title-link" href="">
+              <h1 class="">Вечеринки на острове!</h1>
+            </a>
+          </div>
+          <div class="col-xs-12 blog-date">
+            <span class="">03.08.2015</span>
+          </div>
+          <div class="col-xs-12 blog-img-wrap">
+            <a href="">
+              <img class="blog-img" src="<?php bloginfo("template_directory");?>/pic/party.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-xs-12 blog-txt">
+            <p>Друзья, мы запускаем серию бомбических мероприятий - вечеринки на острове в "Укропе" на Васильевском! Это не просто какие-то там "ивенты"- это первая в городе светская тусовка для вегетарианцев.</p>
+            <p>Пуэр и винил, киноклуб и клавишные - весь август! Следите за обновлением расписания в специальной группе: <a href="https://vk.com/ukropkvartira">https://vk.com/ukropkvartira</a></p>
+            <p>И приходите в гости :)</p>
+            <p>7-ая линия В.О., 30</p>
+            <p>946-30-33</p>
+          </div>
+          <div class="col-xs-12 comments">
+            <a href="">Комментарии <span>(100500)</span></a>
+          </div>
+        </div>
+
+      <!-- - - - - - - - - - - POST - - - - - - - - - - -->
+        <div class="row post">
+          <div class="col-xs-12 blog-title">
+            <a class="blog-title-link" href="">
+              <h1 class="">Сезонное меню в кафе «Укроп»: 8 новых блюд и напитков</h1>
+            </a>
+          </div>
+          <div class="col-xs-12 blog-date">
+            <span class="">01.06.2015</span>
+          </div>
+          <div class="col-xs-12 blog-img-wrap">
+            <a href="">
+              <img class="blog-img" src="<?php bloginfo("template_directory");?>/pic/new-menu.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-xs-12 blog-txt">
+            <p>С 1 июня во всех кафе «Укроп» появилось обновлённое меню – основной список блюд дополнился долгожданной сезонной вкладкой.</p>
+            <p>Летнее предложение состоит из 8 позиций (супы, салаты, вторые блюда), а также напитков. Замысловатая подача или необычная консистенция, по которой едва ли можно догадаться о составе, головокружительные вкусовые впечатления и диковинные ингредиентные ансамбли – стиль, к которому «Укроп» продвигается на протяжении всего своего существования и на этот раз, кажется, подобрался совсем близко.</p>
+            <p>Вы наверняка заметили, что меню во всех кафе теперь практически идентичное и состоит только из позиций-«хитов» - блюд, наиболее любимых гостями. Произошло это не случайно – мы переосмыслили свой подход к авторской кухне и теперь планируем обновлять вкладку спецпредложений раз в 3-4 месяца, сохраняя при этом основной топ.</p>
+            <p>Надеемся, так у нас появится больше возможностей вас удивлять и радовать :)</p>
+            <p>Поделитесь, пожалуйста, своим мнением о новом меню в карточке отзыва – что вам понравилось, что не понравилось, а главное – что мы можем сделать, чтобы стать лучше.</p>
+          </div>
+          <div class="col-xs-12 comments">
+            <a href="">Комментарии <span>(10)</span></a>
+          </div>
+        </div>
+
+      <!-- - - - - - - - - - - POST - - - - - - - - - - -->
+        <div class="row post">
+          <div class="col-xs-12 blog-title">
+            <a class="blog-title-link" href="">
+              <h1 class="">Акция #укроппочта во всех наших кафе</h1>
+            </a>
+          </div>
+          <div class="col-xs-12 blog-date">
+            <span class="">13.04.2015</span>
+          </div>
+          <div class="col-xs-12 blog-img-wrap">
+            <a href="">
+              <img class="blog-img" src="<?php bloginfo("template_directory");?>/pic/special-offer-post.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-xs-12 blog-txt">
+            <p>В апреле во всех заведениях сети появились настоящие почтовые ящики, и это отнюдь не элемент интерьера, как может показаться на первый взгляд :) Теперь каждый гость кафе может заполнить открытку с авторской иллюстрацией и отправить её своим близким.</p>
+            <p>Близким, которые сейчас не рядом, или близким в прямом смысле этого слова – например, человеку, сидящему за одним столиком с вами – чтобы он получил открытку спустя какое-то время и вспомнил, как здорово вы провели этот день вместе.</p>
+            <p>Мини-серия иллюстраций, придуманных нами – о любви к Петербургу, и первая карточка-признание гласит: «Город, в котором ты можешь почувствовать себя птицей».</p>
+            <p>Стоимость открытки с марками - 50 руб. или бесплатно – при заказе 3-х блюд*. Чтобы принять участие в почтовой акции, нужно просто попросить открытку у официанта, заполнить её и опустить в ящик. Все остальные вопросы по доставке отправлений берёт на себя «Укроп».</p>
+            <p>* - 3 блюда подразумевают заказ трёх полноценных позиций меню (за исключением напитков) одним человеком. Акция не суммируется с другими скидками и предложениями от кафе «Укроп»</p>
+          </div>
+          <div class="col-xs-12 comments">
+            <a href="">Комментарии <span>(6)</span></a>
+          </div>
+        </div>
+
+      <!-- - - - - - - - - - - POST - - - - - - - - - - -->
+        <div class="row post">
+          <div class="col-xs-12 blog-title">
+            <a class="blog-title-link" href="">
+              <h1 class="">Весна - пора обновления и очищения</h1>
+            </a>
+          </div>
+          <div class="col-xs-12 blog-date">
+            <span class="">09.03.2015</span>
+          </div>
+          <div class="col-xs-12 blog-img-wrap">
+            <a href="">
+              <img class="blog-img" src="<?php bloginfo("template_directory");?>/pic/spring.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-xs-12 blog-txt">
+            <p>У кого-то оно начинается с головы, у кого-то - с тела.</p>
+            <p>Это не разговор о религии, это разговор о питании, в котором нуждается наш перезимовавший организм. Вслед за изменениями режима дня вставать раньше становится легче, а проводить дни хочется активнее - важно в этот момент поддерживать в себе баланс сил и энергии. Лучше всего это сделать, если разгрузить свою систему пищеварения - избавив её от необходимости усваивать тяжёлую пищу, мы высвобождаем огромный ресурс для маленьких ежедневных побед :)</p>
+            <p>В "Укропе" всё только полезное и натуральное, и никаких соблазнов - вкусные супы, свежие салаты, питательные вторые блюда, а на десерт - уникальные сыроедческие десерты без добавления муки и сахара. Вы почувствуете лёгкость и вдохновение, а также непременно заметите, насколько изменилось самочувствие и, конечно, настроение!</p>
+            <p>Меню нашего кафе идеально подходит и для постящихся. Простые русские блюда в бистро на Марата, 23 - греча с опятами, винегрет - или необычные сочетания перловки с кокосом, салата с киноа и томатами - полноценный обед и столь необходимый заряд для поддержания чистоты мысли.</p>
+          </div>
+          <div class="col-xs-12 comments">
+            <a href="">Комментарии <span>(10)</span></a>
+          </div>
+        </div>
+
+      <!-- - - - - - - - - - - POST - - - - - - - - - - -->
+        <div class="row post">
+          <div class="col-xs-12 blog-title">
+            <a class="blog-title-link" href="">
+              <h1 class="">27 января - приглашаем всех ветеранов и блокадников на праздничный обед</h1>
+            </a>
+          </div>
+          <div class="col-xs-12 blog-date">
+            <span class="">20.01.2015</span>
+          </div>
+          <div class="col-xs-12 blog-img-wrap">
+            <a href="">
+              <img class="blog-img" src="<?php the_field("image");?>" alt="">
+            </a>
+          </div>
+          <div class="col-xs-12 blog-txt">
+            <?php the_post();?>
+          </div>
+          <div class="col-xs-12 comments">
+            <a href="">Комментарии <span>(10)</span></a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- - - - - - - - - - - FOOTER - - - - - - - - - - -->
+      <div class="row footer">
+
+        <div class="col-lg-4 col-social">
+            <a href="http://vk.com/cafeukrop" class="social vk"></a>
+            <a href="http://www.facebook.com/cafeukrop" class="social fb"></a>
+            <a href="http://www.instagram.com/cafeukrop/" class="social inst"></a>
+            <a href="http://www.tripadvisor.ru/Restaurant_Review-g298507-d4367991-Reviews-Ukrop-St_Petersburg_Northwestern_District.html" class="social trip"></a>
+        </div>
+
+        <div class="col-xs-12 col-md-12 col-lg-4 col-email">
+          <a class="email" href="javascript:void(0);">pr@cafe-ukrop.ru</a>
+          <p class="email-txt">по вопросам сотрудничества: <a class="email" href="javascript:void(0);">laodzi212@gmail.com</a></p>
+        </div>
+
+        <div class="col-xs-12 col-md-12 col-lg-4 col-email">
+          <p class="copyright">© 2014 Cafe-Ukrop, Санкт-Петербург</p>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
